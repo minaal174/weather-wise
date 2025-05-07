@@ -26,7 +26,7 @@ export default function EventPlanner({ temperature, condition, rainChance, time 
       if (condition.toLowerCase().includes('rain') || condition.toLowerCase().includes('storm')) {
         return {
           recommendation: false,
-          reason: "Rain/storm expected"
+          reason: "Rain/storm expected soon"
         };
       }
       
